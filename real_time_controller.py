@@ -780,7 +780,6 @@ class MainWindow(QMainWindow):
             # 启动线程（开始发 UDP）
             self.send_thread.start()
 
-
         except Exception as e:
             QtWidgets.QMessageBox.critical(self, "错误", str(e))
 
@@ -961,8 +960,6 @@ class MainWindow(QMainWindow):
                 ax.relim()
                 ax.autoscale_view()
         self.canvas.draw()
-        # --------------------------------
-
         self.sender = None
         self.send_thread = None
 
