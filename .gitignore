@@ -1,0 +1,17 @@
+# ignore big/binary files
+*.exe
+*.zip
+*.tar
+*.7z
+*.rar
+*.dll
+*.pdb
+*.sif
+
+# python cache
+__pycache__/
+*.pyc
+
+# build/packaging folders
+dist/
+build/
