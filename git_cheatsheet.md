@@ -1,6 +1,7 @@
 # 🚀 Git 常用命令速查表
 
 这是一个覆盖 90% 日常开发场景的 Git 指令清单，适用于：
+
 - 上传代码到 GitHub
 - 管理更新和版本
 - 解决 push/pull 问题
@@ -9,7 +10,7 @@
 
 ---
 
-# 🟦 1. 初始化 Git 仓库
+## 1. 初始化 Git 仓库
 
 ```bash
 git init
@@ -20,7 +21,7 @@ git push -u origin main
 
 ---
 
-# 🟦 2. 提交代码（本地）
+## 2. 提交代码（本地）
 
 ```bash
 git status            # 查看工作区状态
@@ -30,7 +31,7 @@ git commit -m "msg"   # 提交
 
 ---
 
-# 🟦 3. 推送到 GitHub（远程）
+## 3. 推送到 GitHub（远程）
 
 ```bash
 git push              # 推送到当前分支
@@ -39,7 +40,7 @@ git push origin main  # 推送到指定分支
 
 ---
 
-# 🟦 4. 从 GitHub 拉取最新代码
+## 4. 从 GitHub 拉取最新代码
 
 ```bash
 git pull origin main
@@ -53,7 +54,7 @@ git pull --rebase origin main
 
 ---
 
-# 🟦 5. 克隆远程仓库
+## 5. 克隆远程仓库
 
 ```bash
 git clone https://github.com/xxx/xxx.git
@@ -61,7 +62,7 @@ git clone https://github.com/xxx/xxx.git
 
 ---
 
-# 🟦 6. 分支管理
+## 6. 分支管理
 
 ## 查看分支
 
@@ -109,7 +110,7 @@ git push origin --delete feature/a
 
 ---
 
-# 🟦 7. 回滚与撤销
+## 7. 回滚与撤销
 
 ## 撤销工作区修改（未 add）
 
@@ -137,7 +138,7 @@ git log --oneline --graph
 
 ---
 
-# 🟦 8. 处理冲突（pull 时）
+## 8. 处理冲突（pull 时）
 
 ```bash
 git pull origin main
@@ -150,7 +151,7 @@ git push
 
 ---
 
-# 🟦 9. 强制推送（慎用）
+## 9. 强制推送（慎用）
 
 如果远程与本地提交不一致，需要覆盖远程记录：
 
@@ -160,7 +161,7 @@ git push --force
 
 ---
 
-# 🟦 10. 常用配置（建议永久设置）
+## 10. 常用配置（建议永久设置）
 
 ```bash
 git config --global user.name "你的名字"
@@ -173,11 +174,11 @@ git config --global core.compression 0
 
 ---
 
-# 🟦 11. .gitignore（建议每个项目都写）
+## 11. .gitignore（建议每个项目都写）
 
 示例：
 
-```
+``` python
 *.exe
 *.dll
 *.zip
@@ -190,6 +191,6 @@ build/
 
 ---
 
-# 🎉 完成
+## 🎉 完成
 
 这份文档适合长期放在你自己的 GitHub 仓库、团队文档或本地笔记中。
