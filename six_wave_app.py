@@ -201,7 +201,7 @@ class MplCanvas(FigureCanvas):
         # 水印
         fig.text(
             0.5, 0.5,
-            "中交粤港澳创新研究院",
+            "中交粤港澳创新研究院--李继尧",
             fontsize=30,
             color="gray",
             alpha=0.15,
